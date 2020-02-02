@@ -31,16 +31,16 @@ html {
 	flex-direction: column;
 	justify-content: left;
 	line-height: 0px;
-	font-size: large;
+	font-size: 1.5em;
 }
 
 #nom h2 {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 #underline {
 	text-decoration: underline;
-	text-decoration-color: #FECA07;
+	text-decoration-color:#FECA07 ;
 }
 
 
