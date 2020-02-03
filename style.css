@@ -46,8 +46,6 @@ html {
 
 section {
 	display: flex;
-	
-	
 
 }
 
@@ -127,7 +125,7 @@ aside h4 {
 
 }
 
-h2{
+h2	{
 	font-weight: bold;
 }
 
@@ -258,6 +256,7 @@ h2{
 }
 
 
+
 @media all and (max-device-width: 480px)
  {
 	.main {
@@ -268,12 +267,78 @@ h2{
 	aside {
 		margin-left: 0px;
 		margin-right: 0px;
+		font-size: 1.4em;
+		
 	}
+
+	#logos {
+		font-size: 3em;
+	}
+
+	.fa-laptop-code {
+		border: 1px solid #404040;
+		border-radius: 80%;
+		padding: 5px;
+		height: 1.2em;
+		width: auto;
+	}
+
 
 	#main {
 		padding-left: 20px;
+		margin: auto;
+	}
+
+	#nom {
+
+	font-size: 2.5em;
+	margin-bottom: 3em;
+
+	}
+
+	#photo {
+	height: 12em;
+	width: 10em;
+
+	}
+
+	.description
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0em;
+	font-size: 32px;
+}
+
+	.description p {
+		margin-bottom: 40px;
+	}
+
+	.description h3 {
+		margin-bottom: 25px;
+		margin-top: 10px;
+		font-size: 34px;
+	}
+
+	#competences {
+		font-size: 25px;
+	}
+
+	.bloc {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.date
+	{
+		min-width:120px ;
+		font-size: 35px;
+		
 	}
 }
+
+
 
 @media all and (max-width: 780px)
 {
@@ -291,4 +356,51 @@ h2{
 		padding-left: 30px;
 	}
 
+	.date
+{
+	min-width:120px ;
+	
+}
+	
+}
+
+
+@media all and (max-width: 480px)
+{
+	.main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	aside {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#main {
+		padding-left: 30px;
+	}
+
+	.date
+{
+	min-width:120px ;
+	
+}
+.bloc {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.description
+	{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0em;
+	
+	}
+
+	#nom
+	{
+		font-size: 1em;
+	}
 }
