@@ -390,6 +390,111 @@ h2	{
 	}
 }
 
+@media all and (max-device-width: 420px)
+ {
+	.main {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	aside {
+		margin-left: 0px;
+		margin-right: 0px;
+		font-size: 24px;
+		
+	}
+
+	#logos {
+		font-size: 3em;
+	}
+
+	.fa-laptop-code {
+		border: 1px solid #404040;
+		border-radius: 80%;
+		padding: 5px;
+		height: 1.2em;
+		width: auto;
+	}
+
+
+	#main {
+		padding-left: 20px;
+		margin: auto;
+	}
+
+	#nom {
+
+	font-size: 2.5em;
+	margin-bottom: 3em;
+
+	}
+
+	#photo {
+	height: 12em;
+	width: 10em;
+
+	}
+
+	.description
+{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-left: 0em;
+	font-size: 32px;
+}
+
+	.description p {
+		margin-bottom: 40px;
+		line-height: 40px;
+		font-size: 34px;
+	}
+
+	.description h3 {
+		margin-bottom: 15px;
+		margin-top: 10px;
+		font-size: 34px;
+		line-height: 40px;
+	}
+
+	#competences {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	#competences h3 {
+		margin-bottom: -13px;
+	}
+
+	.bloc {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+
+	.date
+	{
+		min-width:120px ;
+		font-size: 35px;
+		
+		
+	}
+}
+
 
 
 @media all and (max-width: 780px)
