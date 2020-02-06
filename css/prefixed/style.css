@@ -390,7 +390,7 @@ h2	{
 	}
 }
 
-@media all and (max-device-width: 420px)
+@media all and (max-device-width: 599px)
  {
 	.main {
 		display: -webkit-box;
@@ -456,7 +456,6 @@ h2	{
 	.description p {
 		margin-bottom: 40px;
 		line-height: 40px;
-		font-size: 34px;
 	}
 
 	.description h3 {
