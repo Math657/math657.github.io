@@ -40,7 +40,7 @@ body {
 	-ms-flex-pack: left;
 	justify-content: left;
 	line-height: 0px;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 #nom h2 {
@@ -54,7 +54,7 @@ body {
 }
 
 
-.main {
+section {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
